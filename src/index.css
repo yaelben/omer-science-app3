@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-bg: #FAF9F6;
+  --color-brand-black: #1A1A1A;
+  --color-brand-highlight: #E0FF62;
+  --color-brand-accent: #FF7262;
+  
+  --shadow-brutalist: 8px 8px 0px 0px #1A1A1A;
+}
+
+@layer base {
+  body {
+    @apply bg-brand-bg text-brand-black;
+  }
+}
